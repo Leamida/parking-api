@@ -1,11 +1,12 @@
 0. install and update dependencies :
     composer install
     composer update
-1. MIGRATE DB :
+0.1 configure DB credentials
+2. MIGRATE DB :
     php artisan migrate
-2. SEED DB :
+3. SEED DB :
     php artisan db:seed --class=ParkingSeeder
-3. run project :
+4. run project :
     php artisan serve
-4. API documentation :
+5. API documentation :
     /api/documentation
